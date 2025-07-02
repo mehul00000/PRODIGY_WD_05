@@ -15,10 +15,12 @@ It demonstrates my understanding of basic front-end development, API integration
 ---
 
 ## 📸 Screenshots
+<p align="center">
+  <img src="https://github.com/HENRY-AIFST/PRODIGY_WD_05/blob/main/dis/assets/weather1.png" alt="Weather App Screenshot 1" width="45%" />
+  <img src="https://github.com/HENRY-AIFST/PRODIGY_WD_05/blob/main/dis/assets/weather%2002.png" alt="Weather App Screenshot 2" width="45%" />
+</p>
 
-<img src="https://github.com/HENRY-AIFST/PRODIGY_WD_05/blob/main/dis/assets/weather1.png" alt="Weather App Screenshot" width="300"/>
 
-<img src="https://github.com/HENRY-AIFST/PRODIGY_WD_05/blob/main/dis/assets/weather%2002.png" alt="Weather App Screenshot" width="300"/>
 
 ---
 
