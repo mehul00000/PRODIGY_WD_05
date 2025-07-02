@@ -1,0 +1,222 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Floating animation */
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  /* Swaying animation for buildings and trees */
+  .animate-sway {
+    animation: sway 4s ease-in-out infinite;
+    transform-origin: bottom center;
+  }
+  
+  @keyframes sway {
+    0%, 100% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(1deg);
+    }
+    75% {
+      transform: rotate(-1deg);
+    }
+  }
+  
+  /* Twinkling stars */
+  .animate-twinkle {
+    animation: twinkle 2s ease-in-out infinite;
+  }
+  
+  @keyframes twinkle {
+    0%, 100% {
+      opacity: 0.3;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+  }
+  
+  /* Rain animation */
+  .animate-rain {
+    animation: rain linear infinite;
+  }
+  
+  @keyframes rain {
+    0% {
+      transform: translateY(-100vh);
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100vh);
+      opacity: 0;
+    }
+  }
+  
+  /* Slow spin for sun */
+  .animate-spin-slow {
+    animation: spin 20s linear infinite;
+  }
+  
+  /* Standard animations */
+  .animate-in {
+    animation-fill-mode: both;
+  }
+  
+  .fade-in-0 {
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  .slide-in-from-top-8 {
+    animation: slideInFromTop 0.8s ease-out;
+  }
+  
+  .slide-in-from-bottom-8 {
+    animation: slideInFromBottom 0.8s ease-out;
+  }
+  
+  .slide-in-from-top-4 {
+    animation: slideInFromTop 0.4s ease-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromTop {
+    from {
+      opacity: 0;
+      transform: translateY(-32px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideInFromBottom {
+    from {
+      opacity: 0;
+      transform: translateY(32px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/* Background classes for different scenarios */
+.city-day {
+  background: linear-gradient(135deg, #74b9ff 0%, #0984e3 50%, #74b9ff 100%);
+}
+
+.city-day.clear {
+  background: linear-gradient(135deg, #74b9ff 0%, #0984e3 30%, #fdcb6e 70%, #e17055 100%);
+}
+
+.city-day.cloudy {
+  background: linear-gradient(135deg, #636e72 0%, #74b9ff 50%, #636e72 100%);
+}
+
+.city-day.rainy {
+  background: linear-gradient(135deg, #2d3436 0%, #636e72 50%, #74b9ff 100%);
+}
+
+.city-night {
+  background: linear-gradient(135deg, #2d3436 0%, #636e72 50%, #74b9ff 100%);
+}
+
+.city-night.clear {
+  background: linear-gradient(135deg, #2d3436 0%, #636e72 30%, #74b9ff 100%);
+}
+
+.town-day {
+  background: linear-gradient(135deg, #00b894 0%, #74b9ff 50%, #fdcb6e 100%);
+}
+
+.town-day.clear {
+  background: linear-gradient(135deg, #00b894 0%, #74b9ff 30%, #fdcb6e 70%, #e17055 100%);
+}
+
+.town-day.cloudy {
+  background: linear-gradient(135deg, #636e72 0%, #00b894 50%, #74b9ff 100%);
+}
+
+.town-day.rainy {
+  background: linear-gradient(135deg, #2d3436 0%, #636e72 50%, #00b894 100%);
+}
+
+.town-night {
+  background: linear-gradient(135deg, #2d3436 0%, #636e72 50%, #00b894 100%);
+}
+
+.village-day {
+  background: linear-gradient(135deg, #00b894 0%, #55a3ff 50%, #fdcb6e 100%);
+}
+
+.village-day.clear {
+  background: linear-gradient(135deg, #00b894 0%, #55a3ff 20%, #fdcb6e 60%, #e17055 100%);
+}
+
+.village-day.cloudy {
+  background: linear-gradient(135deg, #636e72 0%, #00b894 50%, #55a3ff 100%);
+}
+
+.village-day.rainy {
+  background: linear-gradient(135deg, #2d3436 0%, #636e72 30%, #00b894 100%);
+}
+
+.village-night {
+  background: linear-gradient(135deg, #2d3436 0%, #636e72 30%, #00b894 70%, #55a3ff 100%);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* Backdrop blur fallbacks */
+@supports not (backdrop-filter: blur(12px)) {
+  .backdrop-blur-md {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+}
