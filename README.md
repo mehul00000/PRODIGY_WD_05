@@ -3,7 +3,7 @@
 A modern and responsive weather forecast web application built using HTML, CSS, and JavaScript. This app provides real-time weather updates for cities worldwide using the OpenWeatherMap API.
 
 🌐 **Live Website:** [roaring-sunshine-b838bc.netlify.app](https://roaring-sunshine-b838bc.netlify.app)  
-📦 **GitHub Repo:** [PRODIGY_WD_05](https://github.com/HENRY-AIFST/PRODIGY_WD_05)
+📦 **GitHub Repo:** [PRODIGY_WD_05](https://github.com/mehul00000/PRODIGY_WD_05)
 
 ---
 
@@ -70,7 +70,7 @@ PRODIGY_WD_05/
 ## 📥 Local Setup
 
 ```bash
-git clone https://github.com/HENRY-AIFST/PRODIGY_WD_05.git
+git clone https://github.com/mehul00000/PRODIGY_WD_05.git
 cd PRODIGY_WD_05
 open index.html
 ```
@@ -100,5 +100,5 @@ OpenWeatherMap API
 Netlify
 
 📧 Contact
-Developer: HENRY-AIFST
-Email: [rahul140706@gmail.com] 
+Developer: mehul00000
+Email: [mehul123@gmail.com] 
