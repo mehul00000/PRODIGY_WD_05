@@ -69,6 +69,7 @@ PRODIGY_WD_05/
 git clone https://github.com/HENRY-AIFST/PRODIGY_WD_05.git
 cd PRODIGY_WD_05
 open index.html
+---
 
 
 🧠 Future Enhancements
