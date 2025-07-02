@@ -16,7 +16,9 @@ It demonstrates my understanding of basic front-end development, API integration
 
 ## 📸 Screenshots
 
-<img src="https://github.com/HENRY-AIFST/PRODIGY_WD_05/blob/main/assets/screenshot1.png" alt="Weather App Screenshot" width="600"/>
+<img src="https://github.com/HENRY-AIFST/PRODIGY_WD_05/blob/main/dis/assets/weather1.png" alt="Weather App Screenshot" width="400"/>
+
+<img src="https://github.com/HENRY-AIFST/PRODIGY_WD_05/blob/main/dis/assets/weather1.png" alt="Weather App Screenshot" width="600"/>
 
 ---
 
