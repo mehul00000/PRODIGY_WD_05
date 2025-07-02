@@ -60,12 +60,16 @@ PRODIGY_WD_05/
 
 ---
 
-## 📥 Local Installation
+
+---
+
+## 📥 Local Setup
 
 ```bash
 git clone https://github.com/HENRY-AIFST/PRODIGY_WD_05.git
 cd PRODIGY_WD_05
-open index.html in your browser
+open index.html
+
 
 🧠 Future Enhancements
 📆 4-day forecast
