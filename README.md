@@ -102,4 +102,4 @@ Netlify
 📧 Contact
 Developer: mehul00000
 
-Email: [mehul123@gmail.com] 
+Email: [mehulsharma31253@gmail.com] 
